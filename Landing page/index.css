@@ -1,0 +1,100 @@
+body { 
+    padding:0px; 
+    margin:0px; 
+    } 
+   .container { 
+    width: 100%; 
+    display:inline-block; 
+    padding:0px; 
+    margin:0px; 
+    background-image: url(https://t4.ftcdn.net/jpg/05/66/59/57/240_F_566595756_OVCAQOU7ljauBBUumFfkWKpS5ZVRQFjK.jpg);
+   }
+.homepage{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.middlepage{
+    background-image: url(https://t4.ftcdn.net/jpg/05/66/59/57/240_F_566595756_OVCAQOU7ljauBBUumFfkWKpS5ZVRQFjK.jpg);
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.text{
+    font-size: larger;
+    margin: 100px;
+    text-decoration: none;
+    max-width: 250px;
+}
+img{
+    margin: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.head{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+
+}
+.pics{
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    align-items: center;
+}
+
+.pics img{
+    border: 2px solid black;
+    margin: 5px 2px 0px 20px;
+    border-radius: 10px;     
+}
+.pics p{
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+.quote{
+    padding:30px; 
+    margin:0px; 
+    background-image: url(https://t4.ftcdn.net/jpg/05/66/59/57/240_F_566595756_OVCAQOU7ljauBBUumFfkWKpS5ZVRQFjK.jpg);
+    width: 100%;
+    font-size: larger;
+}
+.quote h6{
+    display: flex;
+    justify-content: flex-end;
+   font-style: italic;
+}
+.signup p{
+    margin:50px;
+    
+}
+.signup button {
+   margin:50px;
+   border-radius: 30px;
+   padding:10px;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://t3.ftcdn.net/jpg/05/45/46/44/240_F_545464400_JGcMsJikhmTCSA1c2Tbn4f3JQT2g970B.jpg);
+    margin:50px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    background-image: url(https://t3.ftcdn.net/jpg/02/19/93/42/240_F_219934209_nnH8UCi5VRfwL73BgA4CVfmr6moGfyzI.jpg);
+}
